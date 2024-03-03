@@ -32,8 +32,6 @@ def process_sniffed_packet(packet):
         if info:  # Checking if the info is not empty
             print(Fore.LIGHTGREEN_EX + f'[+] Info found! {info}\n')  # Printing the keyword found
 
-            
-        
-
-
-sniff("eth0") # Sniffing the packets with the sniff function
+network_interface = input("Enter the interface to sniff: ") # Getting the interface to sniff
+print(Fore.LIGHTMAGENTA_EX + f'[+] Sniffing on {network_interface}...\n')
+sniff(network_interface) # Sniffing the packets with the sniff function
