@@ -14,7 +14,6 @@
 - example: `sudo python3 arp_spoof.py -t 192.168.1.12 -gw 192.168.1.1`
 
 ### To start the Packet Sniffer:
-By default the interface is eth0, you can change it inside of the script.
 - `sudo python3 packet_sniffer.py`
 
 ## Help 🆘:
@@ -39,3 +38,7 @@ use:
 ![Pasted image 20240301165933](https://github.com/W4RSH3LL/Net-Attack/assets/129652925/11df2242-561a-4050-835e-0c39ba328c04)
 
 ![Net-Attack2](https://github.com/W4RSH3LL/Net-Attack/assets/129652925/ce1fba8f-def7-4615-bc50-7332f72468b5)
+
+*packet_sniffer.py*:
+
+![image](https://github.com/W4RSH3LL/Net-Attack/assets/129652925/5ccf20c0-227c-49c5-8fa7-d8bba9b70be8)
