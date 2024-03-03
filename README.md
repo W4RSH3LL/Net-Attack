@@ -9,9 +9,13 @@
 - `sudo python3 net_scan.py -t target_ip` <--The target ip can also be the entire network
 - example: `sudo python3 net_scan.py -t 192.168.1.1/24`
 
-### To start the arp_spoof attack, use the command:
+### To start the ARP Spoof attack, use the command:
 - `sudo python3 arp_spoof.py -t target_ip -gw gateway_ip`
 - example: `sudo python3 arp_spoof.py -t 192.168.1.12 -gw 192.168.1.1`
+
+### To start the Packet Sniffer:
+By default the interface is eth0, you can change it inside of the script.
+- `sudo python3 packet_sniffer.py`
 
 ## Help 🆘:
 use:
