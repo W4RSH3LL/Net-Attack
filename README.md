@@ -4,6 +4,7 @@
 ## Installation ✅:
 - `git clone https://github.com/W4RSH3LL/Net-Attack.git`
 - `cd Net-Attack`
+- `pip install -r requirements`
 ## Usage:
 ### To scan the network use the command:
 - `sudo python3 net_scan.py -t target_ip` <--The target ip can also be the entire network
