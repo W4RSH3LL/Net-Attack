@@ -3,9 +3,11 @@
 ![Net-Attack](https://github.com/W4RSH3LL/Net-Attack/assets/129652925/04d6c736-c0b9-4c32-8a0d-62bac4c98e9a)
 
 ## Installation ✅:
-- `git clone https://github.com/W4RSH3LL/Net-Attack.git`
-- `cd Net-Attack`
-- `pip install -r requirements.txt`
+```
+- git clone https://github.com/W4RSH3LL/Net-Attack.git
+- cd Net-Attack
+- pip install -r requirements.txt
+```
 ## Usage:
 ### To scan the network use the command:
 - `sudo python3 net_scan.py -t target_ip` <--The target ip can also be the entire network
@@ -16,18 +18,20 @@
 - example: `sudo python3 arp_spoof.py -t 192.168.1.12 -gw 192.168.1.1`
 
 ### To start the Packet Sniffer:
-- `sudo python3 packet_sniffer.py`
+```sudo python3 packet_sniffer.py```
 
 ## Help 🆘:
 use:
 `python3 net_scan.py -h` or `--help` for more info.
 `python3 arp_spoof.py -h` or `--help` for more info.
 
-## Libraries used in this program 📚📗:!
-- `subprocess`
-- `argparse`
-- `scapy`
-- `colorama`
+## Libraries used in this program 📚📗:
+```
+- subprocess
+- argparse
+- scapy
+- colorama
+```
 
 ## Screenshots 📷:
 *net_scan.py:*
